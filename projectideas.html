@@ -27,6 +27,7 @@
 </header>
 <body class="tools_body">
     <br><br><br><br>
+<content>
 <div>
     <h2>Overview</h2>
     <p>For our group project, we have decided to develop Hayden’s Productivity Software with a few extra features inspired from Bo’s A1 Study Assist Application. The primary focus will be on project management and note taking in a collaborative real-time editor. With an estimated “1.4 million local and international students” (Facts & Publications – Universities Australia, 2022). Globally, the productivity software market (currently worth AUD $66.551 billion) expected to grow 14% per year up to 2030 (Productivity Management Software Market Report, 2030, 2022), it is a prime opportunity to develop a project targeted towards these audience and market.</p>
@@ -37,8 +38,9 @@
 
     <p>The project was initially to be built as a desktop application. However, further discussion led us to start building a web-based application with the capacity to transition to a desktop or mobile application. Initial discussions on the application designs will primarily be inspired by Notion though elements of Microsoft OneNote will also be used as inspiration too.</p>
 </div>
+</content>
 
-
+<content>
 <div>
     <h2>Motivation </h2>
     <p>There are some reasons involved to developing this project. Firstly, is the potential to enter the rapidly growing productivity software market that has a high net worth. It presents future opportunities to capitalise on the growing success of the market and thereby becoming successful ourselves. This market is dominated by Microsoft OneNote and Notion, presenting another opportunity to deliver a cheaper alternative solution with features those other applications may lack. It is however extremely ambitious to believe that our project could compete with these companies. Therefore, it is better for the project to be geared towards a specific audience such as school/university students for increased future success. Excluding the productivity software market and target audience of school/university students, the scope of the project is broad enough to shift focus on other potential markets we have not explored yet.</p>
@@ -47,45 +49,128 @@
 
     <p>Finally, the project presents a valuable learning experience for the team, mimicking a real-world scenario where we could experiment with all the different components of software development. It would serve to develop our teamwork, programming skills, understanding of the development life cycle, project management skills, and other necessary soft skills.</p>
 </div>
+</content>
 
+<content>
 <div>
     <h2>Description</h2>
     <p>As a productivity software app, core features of the app will be designed and implemented to handle notetaking, time-management, and project management. Additional features to supplement the app functionality include communication like Teams or Discord, in-built music/video and finally a contact list.</p>
 
-    <p>Feature #1: Notepad – Main feature</p>
+    <p>Feature #1: Notepad – Main feature
     <dl>
-        <dt>Allow users to write and save text
-        <dt>Has ability to customise e.g. change text colour, tables, centre text, change font size.
-        <dt>Storage of notes will currently be as a text file due to it being the most simple and cheap method to use.
-        <dd>Due to its plain text nature, risk of corruption is low and even in the case that an error occurs, it is still possible to recover the data more easily. It is also smaller and cheaper to maintain in terms of storage data
-        <dd>It does raise issues of its inability for rich text formatting, which will cause issues with how it may be displayed once the file is re-opened in the app. Some back-end code to instruct how the file is read can alleviate this issue but will cost more time to build and implement
+        <dt><li>Allow users to write and save text</li></dt>
+        <dt><li>Has ability to customise e.g. change text colour, tables, centre text, change font size.</li></dt>
+        <dt><li>Storage of notes will currently be as a text file due to it being the most simple and cheap method to use.</li></dt>
+        <dd><li>Due to its plain text nature, risk of corruption is low and even in the case that an error occurs, it is still possible to recover the data more easily. It is also smaller and cheaper to maintain in terms of storage data</li></dd>
+        <dd><li>It does raise issues of its inability for rich text formatting, which will cause issues with how it may be displayed once the file is re-opened in the app. Some back-end code to instruct how the file is read can alleviate this issue but will cost more time to build and implement</li></dd>
     </dl>
+</p>
 
-    <p>Feature #2: Whiteboard - Type of page</p>
+    <p>Feature #2: Whiteboard - Type of page
     <dl>
-        <dt>Whiteboard is a type of page which the features such as sticky notes and roadmaps interacts with.
-        <dt>This allows for users to customise their workspace
+        <dt><li>Whiteboard is a type of page which the features such as sticky notes and roadmaps interacts with.</li></dt>
+        <dt><li>This allows for users to customise their workspace</li></dt>
     </dl>
+</p>
 
-
-
-    <p>Feature #3: Calendar – Add on to page</p>
+    <p>Feature #3: Calendar – Add on to page
     <dl>
-        <dt>Calendar is an add on feature. It will be added as an optional feature for the normal notepad feature and will be a permanent feature for sticky notes and Roadmaps.
-        <dt>This will allow users to be able to see when deadlines are due and will be interactive so that it notes can be added or removed.
-        <dt>This feature will be limited in its capability to integrate with other calendar APIs such as a university’s calendar. Therefore, it will require manual input from the user to synchronise the dates between the differing calendars.
-            <dd>Another method to address this issue may be to export the third-party calendar into a PST filetype and this way our app’s calendar can import this data
-            <dd>This will require further tweaking of the calendar feature to enable an import feature.
+        <dt><li>Calendar is an add on feature. It will be added as an optional feature for the normal notepad feature and will be a permanent feature for sticky notes and Roadmaps.</li></dt>
+        <dt><li>This will allow users to be able to see when deadlines are due and will be interactive so that it notes can be added or removed.</li></dt>
+        <dt><li>This feature will be limited in its capability to integrate with other calendar APIs such as a university’s calendar. Therefore, it will require manual input from the user to synchronise the dates between the differing calendars.</li></dt>
+            <dd><li>Another method to address this issue may be to export the third-party calendar into a PST filetype and this way our app’s calendar can import this data</li></dd>
+            <dd><li>This will require further tweaking of the calendar feature to enable an import feature.</li></dd>
         
-        <dt>Extra Calendar Feature - Create follow up tasks requiring action from the user on an assigned day before closing follow up.
-            <dd>Store follow up templates with pre-assigned follow up days. E.g. Today, I have set a follow up task to draft an email to a colleague. This automatically sets the follow up to 3 days from today. 
+        <dt><li>Extra Calendar Feature - Create follow up tasks requiring action from the user on an assigned day before closing follow up.</li></dt>
+            <dd><li>Store follow up templates with pre-assigned follow up days. E.g. Today, I have set a follow up task to draft an email to a colleague. This automatically sets the follow up to 3 days from today.</li></dd>
         
-            <dd>Follow up can be changed to be based upon on calendar days or business days to suit needs of the user.
+            <dd><li>Follow up can be changed to be based upon on calendar days or business days to suit needs of the user.</li></dd>
                 <li>E.g. Calendar days – Setting a follow up 5 days from a Friday will land on a Wednesday</li>
                 <li>E.g. Business days – Setting a follow up 5 days from a Friday will land on a Thursday </li>
     </dl>
+</p>
 
+    <p>Feature #4: Sticky notes - Feature
+    <dl>
+        <dt><li>This feature gives the user the ability to view their notes in a ‘sticky note’ type design.</li></dt>
+        <dt><li>Features include a minimum design only having the title of the sticky note and when hovered over, the option to edit will appear.</li></dt>
+        <dt><li>Due to it being a part of the whiteboard feature, it will be allowed to move freely so that the user can customs if necessary.  </li></dt>
+    </dl>
+</p>
+
+<p>Feature #5: Roadmaps 
+    <dl>
+        <dt><li>It is a similar feature to sticky notes however it is a fixed lists which can be titled Started, In Progress and Completed and have the corresponding notes underneath.</li></dt>
+        <dd><li>This gives individuals or teams the ability to see what needs to be done, what is in progress and what has been completed </li></dd>
+        <dd><li>It also allows for managers to gives employees tasks and it also allows who is working on what task.</li></dd>
+        <dt><li>It is also a part of the whiteboard feature which allows for customisation.</li></dt>
+    </dl>
+</p>
+
+<p>Feature #6: Overview pages
+    <dl>
+        <dt><li>These pages allow for easy navigation of the website to users.</li></dt>
+        <dt><li>Website pages such as product will be considered as an overview page. This means that all the information is in one spot.</li></dt>
+        <dt><li>Application pages such as Overview will allow users to navigate their workspace and their notes easier.</li></dt>
+    </dl>
+</p>
+
+<p>Feature #7: Document uploading
+    <dl>
+        <dt><li>Document uploading allows for users to upload documents which allows for easier storage of documents and easier sharing of information between users.</li></dt>
+    </dl>
+</p>
+
+<p>Feature #8: Channels – Communication extra feature 
+    <dl>
+        <dt><li>Channels are when multiple users are in the same environment which allows for easier communication.</li></dt>
+        <dt><li>This could be performed by either integrating a Discord API or we could create our own channels </li></dt>
+    </dl>
+</p>
+
+<p>Feature #9: Direct message - Add on communication feature 
+    <dl>
+        <dt><li>Approach #1 - Integrate Teams/Discord API</li></dt>
+        <dt><li>Approach #2 – Develop our own chat box limited to a user-to-user interaction and is a private session.</li></dt>
+        <dd><li>Not feasible as we would need to look at how we would host the chat box feature and whether we have the resources to support it.</li></dd>
+    </dl>
+</p>
+
+<p>Extra features - In-built Media Player 
+    <dl>
+        <dt><li>Approach #1 – Integrate Spotify Web API</li></dt>
+        <dt><li>Approach #2 – Develop our own in-built media player</li></dt>
+        <dd><li>Capability to download or play Spotify or YouTube songs using URLs. </li></dd>
+        <dd><li>Potential to even play mp3 files located on the user’s computer though this would raise concerns in terms of privacy and access with user permission.</li></dd>
+        
+        <dt><li>Both approaches raise the issue of legality. The Spotify Web API will require further research and interpretation of the Term & Conditions to see if it is feasible to utilise without risking litigation.</li></dt>
+        <dd><li>The capability to download/play Spotify and YouTube songs raises concerns of copyright infringement and breach of Terms & Conditions. There is considerable risk of potential litigation.</li></dd>
+    </dl>
+</p>
+
+<p>Extra Feature - In-built contact book
+    <dl>
+        <dt><li>Uses a DBMS</li></dt>
+        <dd><li>SQLite – Due to the lightweight role of this feature, investment into other robust DBMS like Oracle, PostgreSQL or MongoDB is not required.</li></dd>
+        <dt><li>Stores info like name, email, phone number, group, role</li></dt>
+        <dt><li>May potentially communicate with communication features/APIs </li></dt>
+        <dt><li>E.g. Call someone on the contact book which uses Teams API</li></dt>
+        <dt><li>E.g. Send an email from the contact book through a pop up and use an email API</li></dt>
+        <dt><li>Issues will arise if this feature requires expansion </li></dt>
+        <dd><li>Different DBMS may be required to accommodate new requirements</li></dd>
+        <dd><li>May require revamping the overall database structure to become flexible and suit new requirement</li></dd>
+    </dl>
+</p>
+
+<p>The design will be very minimalistic, kept as simple as possible whilst allowing all the features to stand out. There will be a side bar where all the notes will be collected and stored. There will be the ability to create new pages as well. The Text channels will be located underneath the note pages. It will only cover around 10-15% of the screen. The rest will be certain features such as the notepad, sticky notes, or roadmaps. This means that users have majority of the space to work while also having the ability to navigate if necessary. </p>
+
+<p>The applications default colour would be called dark mode where the overall design colour will be a dark grey. It is also possible to add a light mode where the background colours change from dark grey to white. The reason dark mode will be default is due to dark mode being easy on the eyes in long durations of work. </p>
     
+<p>The notepad feature will be the main feature of the application. This will be where the user creates and storage all their notes, lists, documents, and projects. The main ability the notepad will have it note taking. This includes list notes, roadmaps, and pain pages where the user can customise their own page. These pages will be stored so that the user can go back to them whenever they need to.  </p>
+
+<p>There are certain features to aid in time/project management. These features include calendar, whiteboards, and channels. Calendar will be primarily used for time management by allowing the user to see when certain deadlines are. Whiteboards will be used for project management by allowing the user to plan and visually see the progression of projects from start to finish. Channel will be used for both time and project management. This will be done through user being able to interact with each other. This allows for information to quickly be transmitted in a clear and effective way.</p>
 
 </div>
+</content>
+
 </body>
