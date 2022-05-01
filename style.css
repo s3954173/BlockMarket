@@ -185,6 +185,11 @@ transform: scale(1,1) ;
     font-family: 'Poppins', sans-serif;
     font-size: 40px;
     color: white;
+    padding: 5%;
+}
+.body_div p{
+    font-family: 'Poppins', sans-serif;
+    padding: 5%;
 }
 
 div:nth-child(1){
